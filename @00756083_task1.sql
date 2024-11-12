@@ -483,7 +483,7 @@ WHERE AppointmentID = 1003;
 SELECT * From Appointments
 
 
---ANSWER TO QUESTION 7 Write a select query which allows the hospital to identify the number of completed appointments with the specialty of doctors as ‘Gastroenterologists’.
+--ANSWER TO QUESTION 7 Write a select query which allows the hospital to identify the number of completed appointments with the specialty of doctors as Â‘GastroenterologistsÂ’.
 
 SELECT COUNT(*) AS NumCompletedAppointments
 FROM MedicalRecords MR
